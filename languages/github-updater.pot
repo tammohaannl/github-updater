@@ -1,4 +1,4 @@
-# Copyright (C) 2025 Andy Fragen
+# Copyright (C) 2026 Andy Fragen
 # This file is distributed under the MIT.
 msgid ""
 msgstr ""
@@ -9,9 +9,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-01-08T21:50:30+00:00\n"
+"POT-Creation-Date: 2026-10-16T19:47:03+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: git-updater\n"
 
 #. Plugin Name of the plugin
@@ -207,12 +207,14 @@ msgstr ""
 
 #. translators: %1: opening tag, %2: closing tag
 #: src/Git_Updater/Bootstrap.php:66
+#, php-format
 msgid "Git Updater is missing required composer dependencies. %1$sLearn more.%2$s"
 msgstr ""
 
 #. translators: 1: branch name, 2: jQuery dropdown, 3: closing tag
 #: src/Git_Updater/Branch.php:323
 #: src/Git_Updater/Branch.php:425
+#, php-format
 msgid "Current branch is `%1$s`, try %2$sanother version%3$s"
 msgstr ""
 
@@ -261,11 +263,13 @@ msgstr ""
 
 #. translators: variable is 'Plugin' or 'Theme'
 #: src/Git_Updater/Install.php:360
+#, php-format
 msgid "Git Updater Install %s"
 msgstr ""
 
 #. translators: variable is 'Plugin' or 'Theme'
 #: src/Git_Updater/Install.php:368
+#, php-format
 msgid "%s URI"
 msgstr ""
 
@@ -302,11 +306,13 @@ msgstr ""
 
 #. translators: %1$s: git server, %2$s: wait time
 #: src/Git_Updater/Messages.php:133
+#, php-format
 msgid "%1$s API&#8217;s rate limit will reset in %2$s minutes."
 msgstr ""
 
 #. translators: %1$s: git server, %2$s: GitHub personal access token URL
 #: src/Git_Updater/Messages.php:140
+#, php-format
 msgid "It looks like you are running into %1$s API rate limits. Be sure and configure a <a href=\"%2$s\">Personal Access Token</a> to avoid this issue."
 msgstr ""
 
@@ -353,26 +359,31 @@ msgstr ""
 
 #. translators: %s: Link to Git Remote Updater repository
 #: src/Git_Updater/Remote_Management.php:152
+#, php-format
 msgid "The <a href=\"%s\">Git Remote Updater</a> plugin was specifically created to make the remote management of Git Updater supported plugins and themes much simpler. You will need the Site URL and REST API key to use with Git Remote Updater settings."
 msgstr ""
 
 #. translators: 1: home URL, 2: REST API key
 #: src/Git_Updater/Remote_Management.php:162
+#, php-format
 msgid "Site URL: %1$s<br> REST API key: %2$s"
 msgstr ""
 
 #. translators: 1: Link to wiki, 2: RESTful API URL
 #: src/Git_Updater/Remote_Management.php:173
+#, php-format
 msgid "Please refer to the <a href=\"%s\">Git Updater Knowledge Base</a> for complete list of attributes."
 msgstr ""
 
 #. translators: link to REST API endpoint for updating
 #: src/Git_Updater/Remote_Management.php:183
+#, php-format
 msgid "REST API endpoints for webhook updating begin at: %s"
 msgstr ""
 
 #. translators: link to REST API endpoint for branch resetting
 #: src/Git_Updater/Remote_Management.php:193
+#, php-format
 msgid "REST API endpoints for webhook branch resetting begin at: %s"
 msgstr ""
 
@@ -470,17 +481,20 @@ msgstr ""
 
 #. translators: %s: The function name.
 #: src/Git_Updater/Shim.php:125
+#, php-format
 msgid "%s expects a non-empty string."
 msgstr ""
 
 #. translators: %s: theme name
 #: src/Git_Updater/Theme.php:388
 #: src/Git_Updater/Theme.php:516
+#, php-format
 msgid "There is a new version of %s available."
 msgstr ""
 
 #. translators: %s: theme version
 #: src/Git_Updater/Theme.php:400
+#, php-format
 msgid "View version %s details."
 msgstr ""
 
@@ -491,22 +505,26 @@ msgstr ""
 #. translators: 1: version number, 2: closing anchor tag, 3: update URL
 #: src/Git_Updater/Theme.php:409
 #: src/Git_Updater/Theme.php:527
+#, php-format
 msgid "View version %1$s details%2$s or %3$supdate now%2$s."
 msgstr ""
 
 #. translators: %s: theme name
 #: src/Git_Updater/Theme.php:414
 #: src/Git_Updater/Theme.php:532
+#, php-format
 msgid "Update %s now"
 msgstr ""
 
 #. translators: 1: version number, 2: closing anchor tag, 3: update URL
 #: src/Git_Updater/Theme.php:539
+#, php-format
 msgid "View version %1$s details%2$s."
 msgstr ""
 
 #. translators: %s: opening/closing paragraph and italic tags
 #: src/Git_Updater/Theme.php:545
+#, php-format
 msgid "%1$sAutomatic update is unavailable for this theme.%2$s"
 msgstr ""
 
